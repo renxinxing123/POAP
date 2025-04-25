@@ -1,6 +1,6 @@
 # POAP: An End-to-end Public Opinion Analysis Pipeline for Weibo
 
-![Concept Diagram](End to end Public Opinion Analysis pipeline for WeiBo .png)
+![Concept Diagram](POAP.png)
 
 **POAP** is an end-to-end, agentic pipeline designed for **automated public opinion analysis on Weibo**, combining web crawling, sentiment detection, keyword-based topic modeling, and report generation — all coordinated by a central multimodal agent.
 
