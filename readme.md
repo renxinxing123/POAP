@@ -24,23 +24,6 @@ POAP is organized into four agents:
 
 > **Note:** After your single query input, POAP runs fully automatically and returns the final report without any further manual intervention.
 
-## 📁 Project Structure
-
-```text
-.
-├── Agents.py                        # Agent 0 (Coordinator + embedded crawler) and Agents 2–4
-├── WeiboCrawler.py                  # Crawler logic (internal to Agent 0)
-├── utils.py                         # CLI & workflow helpers (conversation_loop, step functions)
-├── AutoPublicOpinionAnalysist.ipynb # Jupyter demo notebook with inline outputs
-├── prompts/                         # System-prompt templates for each agent
-│   ├── Coordinator_prompt.txt
-│   ├── Sentiment_analysist_prompt.txt
-│   ├── Topic_modelling_prompt.txt
-│   └── Summarizer_*.txt
-├── requirements.txt                 # Python dependencies
-└── POAP.png                         # Concept diagram
-
-
 ## 🔧 Configuring the Weibo Crawler
 
 Before running the pipeline, obtain your Weibo login cookie and update the `headers['cookie']` field in **WeiboCrawler.py**:
@@ -58,5 +41,22 @@ Before running the pipeline, obtain your Weibo login cookie and update the `head
        'cookie': 'PASTE_YOUR_FULL_COOKIE_VALUE_HERE',
        # …
    }
+
+
+## 📁 Project Structure
+
+```text
+.
+├── Agents.py                        # Agent 0 (Coordinator + embedded crawler) and Agents 2–4
+├── WeiboCrawler.py                  # Crawler logic (internal to Agent 0)
+├── utils.py                         # CLI & workflow helpers (conversation_loop, step functions)
+├── AutoPublicOpinionAnalysist.ipynb # Jupyter demo notebook with inline outputs
+├── prompts/                         # System-prompt templates for each agent
+│   ├── Coordinator_prompt.txt
+│   ├── Sentiment_analysist_prompt.txt
+│   ├── Topic_modelling_prompt.txt
+│   └── Summarizer_*.txt
+├── requirements.txt                 # Python dependencies
+└── POAP.png                         # Concept diagram
 
 
