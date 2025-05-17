@@ -27,6 +27,7 @@ POAP is organized into four agents:
 
 > **Note:** After your single query input, POAP runs fully automatically and returns the final report without any further manual intervention.
 
+
 ## 🔧 Configuring the Weibo Crawler
 
 Before running the pipeline, obtain your Weibo login cookie and update the `headers['cookie']` field in **WeiboCrawler.py**:
@@ -44,6 +45,16 @@ Before running the pipeline, obtain your Weibo login cookie and update the `head
        'cookie': 'PASTE_YOUR_FULL_COOKIE_VALUE_HERE',
        # …
    }
+
+
+## ⚙️ Environment Configuration
+
+POAP requires the OpenAI API key to access the LLM. 
+
+1. Open Agents.py, find the line, and replace 'sk-proj-…' with your actual key:
+   os.environ['OPENAI_API_KEY'] = 'sk-proj-mVNHPNLTGvLJiUpbvlQ9...'
+
+2. Save and re-run the pipeline.
 
 
 ## 📁 Project Structure
