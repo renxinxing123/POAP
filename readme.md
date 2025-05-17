@@ -51,10 +51,9 @@ Before running the pipeline, obtain your Weibo login cookie and update the `head
 
 POAP requires the OpenAI API key to access the LLM. 
 
-1. Open Agents.py, find the line, and replace 'sk-proj-…' with your actual key:
-   os.environ['OPENAI_API_KEY'] = 'sk-proj-mVNHPNLTGvLJiUpbvlQ9...'
+```bash
+   export OPENAI_API_KEY = 'Your OpenAI API key'
 
-2. Save and re-run the pipeline.
 
 
 ## 📁 Project Structure
