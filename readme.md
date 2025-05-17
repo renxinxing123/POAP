@@ -53,7 +53,7 @@ POAP requires the OpenAI API key to access the LLM.
 
 ```bash
    export OPENAI_API_KEY = 'Your OpenAI API key'
-
+```
 
 
 ## 📁 Project Structure
