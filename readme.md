@@ -1,5 +1,8 @@
 # POAP: An End-to-end Public Opinion Analysis Pipeline for Weibo
 
+![Figure 1](https://github.com/user-attachments/assets/00ade463-fd33-4a34-90cc-41724aee7883)
+
+
 **POAP** is a fully automated pipeline for analyzing public opinion on Sina Weibo. Provide a single natural language query with three key parameters—**keywords**, **date** (`YYYY-MM-DD`), and **platform (Sina Weibo)**—POAP will run an automated end-to-end analysis workflow, producing a detailed analysis report with **no further manual steps**.
 
 
